@@ -1,4 +1,9 @@
-// #define S for MAXN, T is S+1 and use add_edge
+//#define S for MAXN, T is S+1 and use add_edge
+// In Bipartile graph,
+// Maximum Independent Set a set of vertices such that any 
+//two vertices in the set do not have a direct edge between them.
+// Minimum Vertex cover Set of vertices that touches every edge
+// MIS = N - MVC (MVC = MAX FlOW (maximum matching))
 struct dinic {
 	struct edge {ll b, cap, flow, flip;};
 	vector<edge> g[S+2];
