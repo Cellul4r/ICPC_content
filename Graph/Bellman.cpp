@@ -1,4 +1,4 @@
-// รับกราฟเป็น edge list
+// Edge List
 struct Edge {
     int u, v, w;
 };
