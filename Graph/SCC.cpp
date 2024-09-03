@@ -1,3 +1,6 @@
+//Finds strongly connected components in a directed graph. If
+//vertices u, v belong to the same component, we can reach u from v and vice
+//versa
 vector<bool> visited; // keeps track of which vertices are already visited
 
 // runs depth first search starting at vertex v.
