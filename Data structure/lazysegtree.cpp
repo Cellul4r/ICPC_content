@@ -5,7 +5,7 @@ struct lseg {
 	typedef ll D;
 
 	T idT = 0, t[2 * NN];
-	D idD = 0, d[NN];
+	D idD = 0, d[2 * NN];
 	ll n = NN;
 
 	T f(T a, T b) { return a + b; }
